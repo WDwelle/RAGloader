@@ -1,0 +1,12 @@
+{
+    "input_directories": ["path/to/input/directory"],
+    "text_output_directory": "path/to/text/output/directory",
+    "pii_output_directory": "path/to/pii/output/directory",
+    "hash_file_path": "file_hashes.json",
+    "patterns": {
+        "SSN": "\\b\\d{3}-\\d{2}-\\d{4}\\b",
+        "CreditCard": "\\b\\d{4}-\\d{4}-\\d{4}-\\d{4}\\b"
+    },
+    "pii_ok": ["path/to/pii_ok_file.json"],
+    "exclusions": ["*.tmp", "*.log"]
+}
